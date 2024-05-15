@@ -51,9 +51,9 @@ def filter_chart(dataset : pd.DataFrame ) -> pd.DataFrame:
 
 #filtered = filter_chart(df)
 
-st.write('Promo prices by product')
+# st.write('Promo prices by product')
 
-st.line_chart(filter_chart(df), x="full_date", y="product_promo_price", color="product_name")
+# st.line_chart(filter_chart(df), x="full_date", y="product_promo_price", color="product_name")
 
 # st.write('Other promos by product')
 

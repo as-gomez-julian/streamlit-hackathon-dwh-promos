@@ -15,4 +15,5 @@ SELECT
   is_other_promo
 FROM
   `prod-shelftia-as.flattening_data.dw_hktn_promos`
+  LIMIT 100000
 """
